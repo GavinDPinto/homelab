@@ -45,7 +45,7 @@ In <https://login.tailscale.com/admin>:
 ## Daily use
 
 - Web UI: `https://m710q:8006` (click through the self-signed certificate warning)
-- SSH: `ssh root@m710q` (not tested yet)
+- SSH: `ssh root@m710q` (works over Tailscale)
 
 ## Notes
 

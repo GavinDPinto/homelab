@@ -23,7 +23,7 @@ Gavin's first homelab. This repo documents how it's built and will later hold th
 - Done (2026-11-26): Proxmox VE 9.3-1 installed (ext4 on /dev/nvme0n1, hostname m710q.home.arpa, interface nic0) → no-subscription repo + updates → Tailscale on host (MagicDNS on, key expiry off; reach at https://m710q:8006) → vmbr0 switched to DHCP (backup at /etc/network/interfaces.static-backup). Docs: docs/02–04.
 - To verify after first move: gets an address on the other network, Tailscale works, stale /etc/hosts line causes no issues
 - To check: housing network rules (personal servers allowed? device/MAC registration needed? devices isolated from each other?)
-- Not done: Tailscale on phone; SSH over Tailscale untested
+- Not done: Tailscale on phone. SSH over Tailscale (`ssh root@m710q`) works.
 - Next: first container
 ## Later purchases (not now)
 Note: RAM/SSD/HDD prices are elevated in 2026 due to the memory shortage.
