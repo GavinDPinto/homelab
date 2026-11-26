@@ -20,11 +20,11 @@ Gavin's first homelab. This repo documents how it's built and will later hold th
 - Containers use DHCP too, or are reached only via Tailscale
 - No media storage yet; Jellyfin is planned for later with an external USB HDD
 ## Status
-- Have: server, Cat5e cable, USB keyboard + mouse, DisplayPort-to-HDMI dongle (arrived; used with an HDMI cable the owner already had)
-- Waiting on: a different, empty USB stick from the lender (the first borrowed stick holds their personal files, so it won't be flashed)
-- To do before install: Tailscale account + app on laptop and phone (not done yet)
+- Done (2026-11-26): Proxmox VE 9.3-1 installed (ext4 on /dev/nvme0n1, hostname m710q.home.arpa, interface nic0) → no-subscription repo + updates → Tailscale on host (MagicDNS on, key expiry off; reach at https://m710q:8006) → vmbr0 switched to DHCP (backup at /etc/network/interfaces.static-backup). Docs: docs/02–04.
+- To verify after first move: gets an address on the other network, Tailscale works, stale /etc/hosts line causes no issues
 - To check: housing network rules (personal servers allowed? device/MAC registration needed? devices isolated from each other?)
-- Next: flash Proxmox ISO (Rufus, DD mode) → BIOS (F1: VT-x, VT-d on; F12 boot menu) → install → no-subscription repo + updates → switch vmbr0 to DHCP → install Tailscale on host (disable key expiry, enable MagicDNS)
+- Not done: Tailscale on phone; SSH over Tailscale untested
+- Next: first container
 ## Later purchases (not now)
 Note: RAM/SSD/HDD prices are elevated in 2026 due to the memory shortage.
 - Media drive for Jellyfin: Seagate/WD/Toshiba external **desktop** USB HDD from Amazon itself or a major store; 8TB was ~$355–395 CAD in Nov 2026. Never buy no-name "8TB portable SSD" listings (fake-capacity scam).
@@ -35,6 +35,7 @@ Note: RAM/SSD/HDD prices are elevated in 2026 due to the memory shortage.
 ```
 README.md             overview, hardware summary, status, doc index
 docs/01-hardware.md   hardware (owner-written)
+docs/02-04-*.md       proxmox install, networking (DHCP), tailscale
 docs/decisions/       ADR-style notes, numbered NNNN-title.md (template: 0000)
 .gitignore         blocks secrets, ISOs/images, tfstate, OS junk
 ```

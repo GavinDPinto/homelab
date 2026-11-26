@@ -39,5 +39,5 @@ See [decisions/0001-used-mini-pc.md](decisions/0001-used-mini-pc.md). Short vers
 - [X] Power adapter included and working
 - [X] Powers on, fan normal
 - [X] Network link lights come on with the cable plugged in
-- [ ] SSD type: ____
+- [X] SSD type: NVMe, WD PC SN730 256GB (seen in the Proxmox installer)
 - [ ] MAC address noted **privately**
