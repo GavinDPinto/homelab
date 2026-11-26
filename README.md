@@ -19,7 +19,8 @@ Full details: [docs/01-hardware.md](docs/01-hardware.md)
 ## Status
 
 - [x] Server bought and arrived
-- [x] Ethernet cable, USB stick, DisplayPort → HDMI dongle, USB keyboard and mouse
+- [x] Ethernet cable, USB stick, USB keyboard and mouse
+- [ ] DisplayPort → HDMI dongle (ordered, not arrived yet; only needed for the first install)
 - [ ] Install Proxmox VE
 - [ ] Set up remote access (Tailscale)
 
@@ -39,7 +40,9 @@ homelab/
 │   ├── 01-hardware.md
 │   └── decisions/
 │       ├── 0000-template.md
-│       └── 0001-used-mini-pc.md
+│       ├── 0001-used-mini-pc.md
+│       ├── 0002-proxmox.md
+│       └── 0003-tailscale.md
 └── .gitignore
 ```
 
