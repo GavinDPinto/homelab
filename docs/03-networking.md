@@ -78,9 +78,7 @@ ifreload -a
 
 ## Housing network rules
 
-- [ ] Personal servers allowed? ____
-- [ ] Device registration (by MAC) needed? ____
-- [ ] Devices isolated from each other? ____ (Tailscale works around isolation)
+No outside rules to check: my family owns and controls the router.
 
 ## Problems hit and how I fixed them
 

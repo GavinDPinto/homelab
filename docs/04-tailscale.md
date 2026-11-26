@@ -11,6 +11,7 @@ Reach the Proxmox web UI and SSH from my laptop no matter which network the serv
 
 - [x] Made a Tailscale account
 - [x] Installed the Tailscale app on my laptop and signed in (did this while Proxmox was installing)
+- [x] Installed it on my phone too
 
 ## Install on the Proxmox host
 
