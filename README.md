@@ -20,7 +20,7 @@ Full details: [docs/01-hardware.md](docs/01-hardware.md)
 
 - [x] Server bought and arrived
 - [x] Ethernet cable, USB stick, USB keyboard and mouse
-- [ ] DisplayPort → HDMI dongle (ordered, not arrived yet; only needed for the first install)
+- [X] DisplayPort → HDMI dongle (have a HDMI to HDMI cable already)
 - [ ] Install Proxmox VE
 - [ ] Set up remote access (Tailscale)
 

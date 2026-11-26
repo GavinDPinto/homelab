@@ -20,8 +20,8 @@ Gavin's first homelab. This repo documents how it's built and will later hold th
 - Containers use DHCP too, or are reached only via Tailscale
 - No media storage yet; Jellyfin is planned for later with an external USB HDD
 ## Status
-- Have: server, Cat5e cable, USB stick (borrowed), USB keyboard + mouse
-- Waiting on: DisplayPort-to-HDMI dongle, ordered from Amazon, not arrived yet (needed only for the first install)
+- Have: server, Cat5e cable, USB keyboard + mouse, DisplayPort-to-HDMI dongle (arrived; used with an HDMI cable the owner already had)
+- Waiting on: a different, empty USB stick from the lender (the first borrowed stick holds their personal files, so it won't be flashed)
 - To do before install: Tailscale account + app on laptop and phone (not done yet)
 - To check: housing network rules (personal servers allowed? device/MAC registration needed? devices isolated from each other?)
 - Next: flash Proxmox ISO (Rufus, DD mode) → BIOS (F1: VT-x, VT-d on; F12 boot menu) → install → no-subscription repo + updates → switch vmbr0 to DHCP → install Tailscale on host (disable key expiry, enable MagicDNS)
