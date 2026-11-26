@@ -16,6 +16,15 @@ I'm starting my first homelab on a budget of roughly $200–300 CAD. The server 
 5. **New budget mini PC (Intel N150 etc.):** modern and efficient, but prices went up in 2026 with the RAM/SSD shortage, and RAM is often soldered.
 6. **Used business mini PC (Lenovo ThinkCentre Tiny / HP EliteDesk / Dell OptiPlex Micro):** older CPUs, but cheap, well built, upgradeable, and a common homelab choice.
 
+### Specific listings compared
+
+| Listing | Price (CAD) | Why not |
+|---|---|---|
+| HP EliteDesk 800 G3, i5-7500T, 16GB / 512GB | $275.99 | Same-gen CPU, only ~10% faster; not worth +$56 |
+| Refurb.io HP EliteDesk, i5-6400T | $219 | 6th gen: weaker for HEVC 10-bit transcoding |
+| Amazon Renewed HP ProDesk "i5" | $199.99 | CPU generation not listed, so no way to know what I'd get |
+| **Lenovo M710q Tiny, i5-7400T, 16GB / 256GB** (Best Buy, marketplace seller) | **$219.78** | **Picked** |
+
 ## Decision
 
 A refurbished Lenovo ThinkCentre M710q Tiny with an i5-7400T, 16GB RAM and a 256GB SSD, for $219.78 CAD.
